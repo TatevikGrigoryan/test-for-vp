@@ -1,0 +1,28 @@
+.vpHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #E8EBF0;
+    height: 79px;
+}
+.vpHeader .rightSide {
+    display: flex;
+    align-items: center;
+}
+
+.vpHeader button {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 48px;
+    background: #0C1BB1;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    border: unset;
+    margin-right: 14px;
+}

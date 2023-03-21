@@ -1,0 +1,32 @@
+.avatarWrapper {
+    display: flex;
+    position: relative;
+    padding: 8px 12px;
+    align-items: center;
+    width: 308px;
+}
+
+.avatarWrapper .avatarImgWrap {
+    display: flex;
+    position: relative;
+    margin-right: 12px;
+}
+
+.avatarImgWrap img {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    border-radius: 44px;
+}
+.avatarWrapper .avatarInfo {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.avatarWrapper .secondary {
+    color: #757685;
+}

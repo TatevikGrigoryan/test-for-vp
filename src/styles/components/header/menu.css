@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: unset;
+}
+
+.menu .menuItem {
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    margin-right: 32px;
+}
+
+.menu .menuItem:last-child {
+    margin-right: 0;
+}

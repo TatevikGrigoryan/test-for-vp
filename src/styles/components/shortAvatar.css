@@ -1,0 +1,41 @@
+.shortAvatar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 308px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.shortAvatar .avatarImgWrap {
+    display: flex;
+    position: relative;
+    margin-right: 12px;
+}
+
+.shortAvatar .avatar {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    border-radius: 44px;
+}
+.shortAvatar .avatarInfo {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.shortAvatar .secondary {
+    color: #757685;
+}
+
+.shortAvatar .warningIcon {
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+}

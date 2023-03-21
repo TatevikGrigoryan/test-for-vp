@@ -1,0 +1,69 @@
+.avatarMenu {
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 64px 4px 8px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 23px 80px rgba(0, 0, 0, 0.03), 0px 8.39538px 29.2013px rgba(0, 0, 0, 0.0206994), 0px 4.0758px 14.1767px rgba(0, 0, 0, 0.0166887), 0px 1.99803px 6.94968px rgba(0, 0, 0, 0.0133113), 0px 0.790025px 2.74791px rgba(0, 0, 0, 0.00930055);
+    border-radius: 16px;
+    width: 316px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242429;
+}
+
+.avatarMenu .menuItem {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.avatarMenu .tariffInfo:hover,
+.avatarMenu .menuItem:hover {
+    background: #F5F5FA;
+    border-radius: 8px;
+}
+
+.avatarMenu .tariffInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px 0 4px;
+    line-height: 20px;
+    height: 56px;
+    padding: 0 12px;
+}
+
+.avatarMenu .secondary {
+    color: #757685;
+}
+
+.avatarMenu .separator {
+    height: 1px;
+    background: #E8EBF0;;
+}
+
+.avatarMenu .enteredOrders {
+    display: flex;
+    align-items: center;
+}
+
+.avatarMenu .enteredOrders .new {
+    background: #0C1BB1;
+    border-radius: 28px;
+    padding: 2px 8px 2px 7px;
+    color: #FFFFFF;
+    margin-left: 8px;
+    line-height: 20px;
+}
+
+.avatarMenu .warning {
+    background: #E12C2C;;
+    color: #FFFFFF;
+}
